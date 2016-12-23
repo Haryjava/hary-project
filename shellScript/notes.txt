@@ -1,0 +1,4 @@
+*/1 * * * *	generate_links.sh
+* * * * *	switch.sh
+9 14,23 * * *	warehouse.sh
+1 */[custom] * * *	hit_cron.sh
