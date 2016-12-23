@@ -36,7 +36,7 @@ CREATE TABLE `condt` (
 
 LOCK TABLES `condt` WRITE;
 /*!40000 ALTER TABLE `condt` DISABLE KEYS */;
-INSERT INTO `condt` VALUES (1,'inetholic.com','2','1');
+INSERT INTO `condt` VALUES (1,'tifosilinux.wordpress.com','2','1');
 /*!40000 ALTER TABLE `condt` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
