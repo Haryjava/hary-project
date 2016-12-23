@@ -1,0 +1,190 @@
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Rebuilt URL to: 94.181.34.64:8080/
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-*   Trying 94.181.34.64...
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-*   Trying 113.204.136.50...
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Connected to 61.162.223.41 (61.162.223.41) port 9797 (#0)
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-> HEAD / HTTP/1.1
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-> Host: 61.162.223.41:9797
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-> User-Agent: curl/7.47.0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-> Accept: */*
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-> 
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:< HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Tx-Server: MiXr
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Date: Tue, 30 Aug 2016 08:07:52 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Content-Type: text/html
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Content-Length: 1770
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Last-Modified: Fri, 25 Dec 2015 07:55:01 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Connection: close
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< ETag: "567cf655-6ea"
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Expires: Thu, 01 Jan 1970 00:00:01 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Cache-Control: no-cache
+--
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< MiCGI-Host: 122.147.24.103
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< MiCGI-Http-Host: 122.147.24.103:8080
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< MiCGI-Server-Ip: 122.147.24.103
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< MiCGI-Server-Port: 80
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< MiCGI-Status: LUAROOT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< MiCGI-Preload: no
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Accept-Ranges: bytes
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< 
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Closing connection 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Tx-Server: MiXr
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Date: Tue, 30 Aug 2016 08:07:52 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Type: text/html
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Length: 1770
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Last-Modified: Fri, 25 Dec 2015 07:55:01 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Connection: close
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-ETag: "567cf655-6ea"
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Expires: Thu, 01 Jan 1970 00:00:01 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Cache-Control: no-cache
+--
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-*   Trying 222.161.209.164...
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Rebuilt URL to: 189.219.93.219:57344/
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-*   Trying 189.219.93.219...
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Rebuilt URL to: 188.164.203.26:80/
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-*   Trying 188.164.203.26...
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Rebuilt URL to: 120.198.248.97:80/
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-*   Trying 120.198.248.97...
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Rebuilt URL to: 222.59.161.12:8118/
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-*   Trying 222.59.161.12...
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:< HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Server: nginx/1.0.15
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Date: Tue, 30 Aug 2016 08:07:52 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Content-Type: text/html
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Connection: keep-alive
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Content-Length: 3698
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Last-Modified: Tue, 16 Jun 2015 21:34:15 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Accept-Ranges: bytes
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< 
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Connection #0 to host 106.75.198.201 left intact
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Server: nginx/1.0.15
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Date: Tue, 30 Aug 2016 08:07:52 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Type: text/html
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Connection: keep-alive
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Length: 3698
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Last-Modified: Tue, 16 Jun 2015 21:34:15 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Accept-Ranges: bytes
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Rebuilt URL to: 189.219.91.254:58917/
+--
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* connect to 77.48.224.83 port 8080 failed: No route to host
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Failed to connect to 77.48.224.83 port 8080: No route to host
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Closing connection 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* connect to 166.62.97.241 port 18628 failed: Connection refused
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Failed to connect to 166.62.97.241 port 18628: Connection refused
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Closing connection 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* connect to 166.62.97.238 port 18628 failed: Connection refused
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Failed to connect to 166.62.97.238 port 18628: Connection refused
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Closing connection 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:< HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Content-Type: text/html
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Connection: keep-alive
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Date: Tue, 30 Aug 2016 08:07:52 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Server: XiaoYun.Smart.Router
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Accept-Ranges: bytes
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< 
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Connection #0 to host 111.56.49.30 left intact
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Type: text/html
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Connection: keep-alive
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Date: Tue, 30 Aug 2016 08:07:52 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Server: XiaoYun.Smart.Router
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Accept-Ranges: bytes
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Connected to 159.203.2.1 (159.203.2.1) port 8888 (#0)
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-> HEAD / HTTP/1.1
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-> Host: 159.203.2.1:8888
+--
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* connect to 190.207.97.26 port 8080 failed: Connection refused
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Failed to connect to 190.207.97.26 port 8080: Connection refused
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Closing connection 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Empty reply from server
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Connection #0 to host 85.143.24.70 left intact
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* connect to 190.199.133.231 port 3128 failed: Connection refused
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Failed to connect to 190.199.133.231 port 3128: Connection refused
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Closing connection 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:< HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Date: Tue, 30 Aug 2016 08:07:52 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Server: Apache/2.2.3 (CentOS)
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Last-Modified: Tue, 23 Aug 2016 17:17:55 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< ETag: "530120-10-586996c0"
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Accept-Ranges: bytes
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Content-Length: 16
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Connection: close
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Content-Type: text/html; charset=UTF-8
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< 
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Closing connection 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Date: Tue, 30 Aug 2016 08:07:52 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Server: Apache/2.2.3 (CentOS)
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Last-Modified: Tue, 23 Aug 2016 17:17:55 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-ETag: "530120-10-586996c0"
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Accept-Ranges: bytes
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Length: 16
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Connection: close
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Type: text/html; charset=UTF-8
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-
+--
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Excess found in a non pipelined read: excess = 38 url = / (zero-length body)
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Closing connection 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-HTTP/1.1 400 Invalid header received from client
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Proxy-Agent: Privoxy 3.0.19
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Type: text/plain
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Connection: close
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Empty reply from server
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Connection #0 to host 119.6.136.122 left intact
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:< HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Server: nginx/1.2.2
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Date: Tue, 30 Aug 2016 08:07:53 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Content-Type: text/html
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Connection: keep-alive
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Pragma: no-cache
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Cache-Control: no-cache,no-store,must-revalidate
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Expires: 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< 
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Connection #0 to host 122.195.181.46 left intact
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Server: nginx/1.2.2
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Date: Tue, 30 Aug 2016 08:07:53 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Type: text/html
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Connection: keep-alive
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Pragma: no-cache
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Cache-Control: no-cache,no-store,must-revalidate
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Expires: 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< HTTP/1.1 503 Service Unavailable
+--
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Connection: close
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< 
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Excess found in a non pipelined read: excess = 38 url = / (zero-length body)
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Closing connection 0
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-HTTP/1.1 400 Invalid header received from client
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Proxy-Agent: Privoxy 3.0.19
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Type: text/plain
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Connection: close
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:< HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Date: Tue, 30 Aug 2016 08:07:53 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Server: Apache/2.4.12 (Ubuntu)
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Last-Modified: Thu, 28 Jan 2016 08:31:45 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< ETag: "38b-52a60bfb39e40"
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Accept-Ranges: bytes
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Content-Length: 907
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Vary: Accept-Encoding
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< Content-Type: text/html
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-< 
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-* Connection #0 to host 188.166.87.190 left intact
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt:HTTP/1.1 200 OK
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Date: Tue, 30 Aug 2016 08:07:53 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Server: Apache/2.4.12 (Ubuntu)
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Last-Modified: Thu, 28 Jan 2016 08:31:45 GMT
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-ETag: "38b-52a60bfb39e40"
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Accept-Ranges: bytes
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Length: 907
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Vary: Accept-Encoding
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-Content-Type: text/html
+/var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt-
+Binary file /var/www/html/regresilinier/regresilinier/application/views/result/2016083004075216545-20160826_full.txt matches

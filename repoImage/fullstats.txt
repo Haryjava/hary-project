@@ -1,0 +1,3 @@
+Stats for today 2016-12-23
+Total success unique of Hit      : 1365
+Total of Hit 		       : 99184

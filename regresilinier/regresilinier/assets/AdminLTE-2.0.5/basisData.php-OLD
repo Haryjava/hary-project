@@ -1,0 +1,63 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: hary
+ * Date: 7/16/2016
+ * Time: 5:33 PM
+ */
+
+class basisData
+{
+    protected $servername = 'localhost';
+    protected $username = 'root';
+    protected $password = '';
+    protected $dbname = 'regresi';
+
+    const POPULASI = '280';
+    const KONSTANTA = '0.1';
+
+    public static function connMYSQL()
+    {
+        $conn = new mysqli($this->servername, $this->username, $this->password, $this->dbname);
+        if (mysqli_connect_errno()) {
+            printf("Connection failed: %s", mysqli_connect_error());
+            exit();
+        } else {
+            printf("Connection Established");
+        }
+    }
+}
+
+class nilaiPerhitungan extends basisData{
+    public function numPopulation(){
+        return basisData::POPULASI;
+    }
+
+    public function numSample(){
+        /*return "Perhitungan jumlah sample disini..";
+        $result = parent::connMYSQL();
+        $cari = $result->mysql_query("select sum(number_ticket) as sample from tbltransact");
+        while($hasil=mysql_fetch_row($cari)){
+            printf($hasil[sample]);
+        }*/
+        $cek = new basisData();
+        return $cek->connMYSQL();
+    }
+
+    public function numCorrelation(){
+        
+    }
+
+    public function  numCoefficient(){
+
+    }
+}
+
+$sample = new nilaiPerhitungan();
+echo $sample->numSample();
+
+//$tes = new basisData();
+//echo $tes->connMYSQL();
+//echo basisData::$numPopulasi=280;
+//echo "Jumlah populasi : ".basisData::POPULASI."\n";
+//echo "Nilai Konstanta 10% : ".basisData::KONSTANTA;
