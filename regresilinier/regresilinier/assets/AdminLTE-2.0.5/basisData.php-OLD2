@@ -1,0 +1,78 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: hary
+ * Date: 7/16/2016
+ * Time: 5:33 PM
+ */
+
+class basisData
+{
+    private $_connection;
+    private static $_instance;
+    private $_host = 'localhost';
+    private $_username = 'root';
+    private $_password = '';
+    private $_dbname = 'regresi';
+
+    const POPULASI = '280';
+    const KONSTANTA = '0.1';
+
+    public static function getInstance(){
+        if(!self::$_instance){
+            self::$_instance = new self();
+        }
+        return self::$_instance;
+    }
+
+    public static function __construct()
+    {
+        $this->_connection = new mysqli($this->_host, $this->_username, $this->_password, $this->_dbname);
+        // Error handling
+		if(mysqli_connect_error()) {
+            trigger_error("Failed to connect to MySQL: " . mysql_connect_error(), E_USER_ERROR);
+        }else{
+            printf("Connection Established");
+        }
+    }
+
+    private function __clone(){}
+
+    public function getConnection(){
+        return $rhis->_connection;
+    }
+}
+
+class nilaiPerhitungan extends basisData{
+    public function numPopulation(){
+        return basisData::POPULASI;
+    }
+
+    public function numSample(){
+        /*return "Perhitungan jumlah sample disini..";
+        $result = parent::connMYSQL();
+        $cari = $result->mysql_query("select sum(number_ticket) as sample from tbltransact");
+        while($hasil=mysql_fetch_row($cari)){
+            printf($hasil[sample]);
+        }*/
+        $cek = new basisData();
+        return $cek->connMYSQL();
+    }
+
+    public function numCorrelation(){
+
+    }
+
+    public function numCoefficient(){
+
+    }
+}
+
+$sample = new basisData();
+echo $sample->getConnection();
+
+//$tes = new basisData();
+//echo $tes->connMYSQL();
+//echo basisData::$numPopulasi=280;
+//echo "Jumlah populasi : ".basisData::POPULASI."\n";
+//echo "Nilai Konstanta 10% : ".basisData::KONSTANTA;

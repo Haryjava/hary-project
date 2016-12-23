@@ -1,0 +1,15 @@
+* Rebuilt URL to: 1.179.198.17:8080/
+*   Trying 1.179.198.17...
+* Rebuilt URL to: 139.59.212.212:8080/
+*   Trying 139.59.212.212...
+* connect to 139.59.212.212 port 8080 failed: Connection refused
+* Failed to connect to 139.59.212.212 port 8080: Connection refused
+* Closing connection 0
+* Connected to 1.179.198.17 (1.179.198.17) port 8080 (#0)
+> HEAD / HTTP/1.1
+> Host: 1.179.198.17:8080
+> User-Agent: curl/7.47.0
+> Accept: */*
+> 
+* Recv failure: Connection reset by peer
+* Closing connection 0

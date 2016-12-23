@@ -1,0 +1,198 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: hary
+ * Date: 7/16/2016
+ * Time: 5:33 PM
+ */
+
+class database{
+    var $koneksi;
+    var $selectDB;
+    var $result;
+    var $row;
+    var $jumlah;
+
+    const POPULASI = '280';
+    //Nilai tingkat kesalahan/ taraf signifikansi yang diberikan sebesar 10%, disamping 95% atau 0.05
+    // (dari taraf signifikansi 5% yang biasa digunakan oleh ilmu sosial karena perilaku manusia yang berbeda-beda)
+    const KONSTANTA = '1'; // Atau 100%
+    // Jumlah data yang digunakan untuk table penolong dan persamaan regresi linier
+    const DATAPENOLONG = '14';
+
+    function numPopulation(){
+        return database::POPULASI;
+    }
+
+    function numSample(){
+        $nameserver = "127.0.0.1";
+        $username   = "root";
+        $passwd     = "";
+        $dbname     = "regresi";
+        $koneksi    = mysql_connect($nameserver, $username, $passwd)or die('error'.mysql_errno());
+
+        $this->selectDB = mysql_select_db($dbname, $koneksi);
+        if(!$this->selectDB){
+            echo "Gagal";
+        }
+
+        // Bypass nilai constant KONSTANTA, query langsung dari table
+        $sql = "SELECT sum(number_ticket) as sample from tbltransact";
+        $resultSample = mysql_query($sql);
+        while($hasilSample= mysql_fetch_array($resultSample)){
+            echo $hasilSample['sample'];
+        }
+    }
+
+    function tablePenolong(){ // Digunakan langsung pada template dashboard 3
+        $nameserver = "127.0.0.1";
+        $username   = "root";
+        $passwd     = "";
+        $dbname     = "regresi";
+        $koneksi    = mysql_connect($nameserver, $username, $passwd)or die('error'.mysql_errno());
+
+        $this->selectDB = mysql_select_db($dbname, $koneksi);
+        if(!$this->selectDB){
+            echo "Gagal";
+        }
+        $i = 0;
+        $sql = "SELECT number_ticket as x, closed_hour as y from tbltransact_dummy";
+        $resultCorrelation = mysql_query($sql);
+        while($hasilCorrelation = mysql_fetch_array($resultCorrelation)){
+            $i++;
+            $squareX = $hasilCorrelation['x']*$hasilCorrelation['x'];
+            $squareY = $hasilCorrelation['y']*$hasilCorrelation['y'];
+            $mulXY = $hasilCorrelation['x']*$hasilCorrelation['y'];
+            echo $i." ".$hasilCorrelation['x']." ".$hasilCorrelation['y']." ".$squareX." ".$squareY." ".$mulXY;
+            echo "\n";
+            $totalX[] = $hasilCorrelation['x']; //Sigma atau total X
+            $totalY[] = $hasilCorrelation['y']; //Sigma atau total Y
+            $totalSquareX[] = $squareX; //Sigma atau total dari X kuadrat atau bisa menggunakan fungsi sqrt()
+            $totalSquareY[] = $squareY; //Sigma atau total dari Y kuadrat atau bisa menggunakan fungsi sqrt()
+            $totalMulXY[] = $mulXY; //Sigma atau total dari X kali Y
+        }
+        echo "Jumlah ".array_sum($totalX)." ".array_sum($totalY)." ".array_sum($totalSquareX)." ".array_sum($totalSquareY)." ".array_sum($totalMulXY);
+    }
+
+    // Mencari nilai-nilai/ 'value of' untuk persamaan rumus regresi linier sederhana y = a + b . x
+    function valueofB(){
+        $nameserver = "127.0.0.1";
+        $username   = "root";
+        $passwd     = "";
+        $dbname     = "regresi";
+        $koneksi    = mysql_connect($nameserver, $username, $passwd)or die('error'.mysql_errno());
+
+        $this->selectDB = mysql_select_db($dbname, $koneksi);
+        if(!$this->selectDB){
+            echo "Gagal";
+        }
+        $sql = "SELECT number_ticket as x, closed_hour as y from tbltransact_dummy";
+        $resultCorrelation = mysql_query($sql);
+        while($hasilCorrelation = mysql_fetch_array($resultCorrelation)){
+            $mulXY = $hasilCorrelation['x']*$hasilCorrelation['y'];
+            $squareX = $hasilCorrelation['x']*$hasilCorrelation['x'];
+            $totalX[] = $hasilCorrelation['x'];
+            $totalY[] = $hasilCorrelation['y'];
+            $totalSquareX[] = $squareX;
+            $totalMulXY[] = $mulXY;
+        }
+        $n = database::DATAPENOLONG;
+        $sigmaMulXY = array_sum($totalMulXY);
+        $sigmaX = array_sum($totalX);
+        $sigmaY = array_sum($totalY);
+        $sqrtX = array_sum($totalSquareX);
+
+        $top = ($n*$sigmaMulXY)-($sigmaX*$sigmaY);
+        $bottom = ($n*$sqrtX)-pow($sigmaX,2);
+        $b = $top/$bottom;
+        // Mengambil 7 digit presisi dalam desimal
+        return number_format((float)$b,7,'.','');
+    }
+
+    function valueofA(){
+        $nameserver = "127.0.0.1";
+        $username   = "root";
+        $passwd     = "";
+        $dbname     = "regresi";
+        $koneksi    = mysql_connect($nameserver, $username, $passwd)or die('error'.mysql_errno());
+
+        $this->selectDB = mysql_select_db($dbname, $koneksi);
+        if(!$this->selectDB){
+            echo "Gagal";
+        }
+        $sql = "SELECT number_ticket as x, closed_hour as y from tbltransact_dummy";
+        $resultCorrelation = mysql_query($sql);
+        while($hasilCorrelation = mysql_fetch_array($resultCorrelation)){
+            $totalX[] = $hasilCorrelation['x'];
+            $totalY[] = $hasilCorrelation['y'];
+        }
+        $sigmaX = array_sum($totalX);
+        $xAksen = $sigmaX/database::DATAPENOLONG;
+        $xAksenDec = number_format((float)$xAksen,4,'.','');
+
+        $sigmaY = array_sum($totalY);
+        $yAksen = $sigmaY/database::DATAPENOLONG;
+        $yAksenDec = number_format((float)$yAksen,6,'.','');
+
+        $getValueofB = database::valueofB();
+        $a = $yAksenDec - ($getValueofB*$xAksenDec);
+        return $a;
+
+    }
+
+    function tableLamaPerhitungan(){
+        $getValueofB = database::valueofB();
+        $getValueofA = database::valueofA();
+        printf("Persamaan regresi yang diperoleh : y = ".$getValueofA." + ".$getValueofB." x ");
+
+    }
+
+    function numCorrelation(){
+        $nameserver = "127.0.0.1";
+        $username   = "root";
+        $passwd     = "";
+        $dbname     = "regresi";
+        $koneksi    = mysql_connect($nameserver, $username, $passwd)or die('error'.mysql_errno());
+
+        $this->selectDB = mysql_select_db($dbname, $koneksi);
+        if(!$this->selectDB){
+            echo "Gagal";
+        }
+        $sql = "SELECT number_ticket as x, closed_hour as y from tbltransact_dummy";
+        $resultCorrelation = mysql_query($sql);
+        while($hasilCorrelation = mysql_fetch_array($resultCorrelation)){
+            $squareX = $hasilCorrelation['x']*$hasilCorrelation['x'];
+            $squareY = $hasilCorrelation['y']*$hasilCorrelation['y'];
+            $mulXY = $hasilCorrelation['x']*$hasilCorrelation['y'];
+            $totalX[] = $hasilCorrelation['x'];
+            $totalY[] = $hasilCorrelation['y'];
+            $totalSquareX[] = $squareX;
+            $totalSquareY[] = $squareY;
+            $totalMulXY[] = $mulXY;
+        }
+        $n = database::DATAPENOLONG;
+        $sigmaXMulY = array_sum($totalMulXY);
+        $sigmaX = array_sum($totalX);
+        $sigmaY = array_sum($totalY);
+        $sigmaSquareX = array_sum($totalSquareX);
+        $sigmaSquareY = array_sum($totalSquareY);
+        $sigmaXsquare = array_sum($totalX)*array_sum($totalX);
+        $sigmaYsquare = array_sum($totalY)*array_sum($totalY);
+
+        $top = ($n*$sigmaXMulY)-($sigmaX*$sigmaY);
+        $bottom = sqrt(($n*$sigmaSquareX-$sigmaXsquare)*($n*$sigmaSquareY-$sigmaYsquare));
+        $r = $top/ $bottom;
+        return number_format((float)$r,2,'.','');
+    }
+
+    function coefDetermination(){
+        $getNumCorrelation = database::numCorrelation();
+        $konstanta = database::KONSTANTA;
+        $KP = ($getNumCorrelation*$getNumCorrelation)*$konstanta;
+        $percentage = $KP*100;
+        return $KP." atau ".$percentage."%";
+    }
+}
+
+//$hasil = new database();
+//echo $hasil->tablePenolong();

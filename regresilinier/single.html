@@ -1,0 +1,41 @@
+<html lang="en">
+<style type="text/css">
+    div{
+        width:100px;
+        height:50px;
+        display:block;
+        border:1px solid red;
+        padding:10px;
+        overflow:hidden;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/start/jquery-ui.css" type="text/css" media="all" />
+<div>
+    asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>asdasdasdasd<br>
+</div>
+<a id="more" href="">Read more</a>
+<script type="application/javascript">
+    var h = $('div')[0].scrollHeight;
+
+    $('#more').click(function(e) {
+        e.stopPropagation();
+        $('div').animate({
+            'height': h
+        })
+    });
+
+    $(document).click(function() {
+        $('div').animate({
+            'height': '50px'
+        })
+    })
+</script>
+
+</body>
+</html>

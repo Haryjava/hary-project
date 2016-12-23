@@ -1,0 +1,59 @@
+<!-- Left side column. contains the sidebar -->
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+        <!-- Sidebar user panel -->
+        <div class="user-panel">
+            <div class="pull-left image">
+                <img src="http://203.130.234.222:83/user2-160x160.JPG" class="img-circle" alt="User Image" />
+            </div>
+            <div class="pull-left info">
+		<p>Autorun Service</p>
+                <a href="#"><i class="fa fa-circle text-success"></i> Active (running)</a>
+		
+            </div>
+        </div>
+        <!-- search form -->
+        <form action="#" method="get" class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="q" class="form-control" placeholder="Search..."/>
+                <span class="input-group-btn">
+                    <button type='submit' name='seach' id='search-btn' class="btn btn-flat"><i class="fa fa-search"></i></button>
+                </span>
+            </div>
+        </form>
+        <!-- /.search form -->
+        <!-- sidebar menu: : style can be found in sidebar.less -->
+        <ul class="sidebar-menu">
+            <li class="header">MAIN NAVIGATION</li>
+            <!--<li class="treeview">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i> <span>Dashboard Monitoring </span> <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="treeview-menu">
+                    <li><a href="<?php echo site_url('dashboard1') ?>"><i class="fa fa-circle-o"></i> Status Tiket</a></li>
+                    <li><a href="<?php echo site_url('dashboard2') ?>"><i class="fa fa-circle-o"></i> Monitoring Grafik</a></li>
+                </ul>
+            </li>
+
+                <li class="treeview">
+                    <a href="<?php echo site_url('dashboard3') ?>"><i class="fa fa-th"></i> Decision Support System </a>
+                </li>
+
+                <li class="treeview">
+                    <a href="<?php echo site_url('dashboard4') ?>"><i class="fa fa-comments"></i> RichEditor Hary </a>
+                </li>-->
+                <li class="treeview">
+                    <!--<a href="#">-->
+                    <!--<i class="fa fa-th"></i><a href="<?php echo site_url('dashboard1') ?>">Decision Support System </a> <i class=""></i>-->
+                    <a href="<?php echo site_url('dashboard5') ?>"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Hit Bot Simulation </a>
+                    <!--</a>-->
+                </li>
+    </section>
+    <!-- /.sidebar -->
+</aside>
+
+<!-- =============================================== -->
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">

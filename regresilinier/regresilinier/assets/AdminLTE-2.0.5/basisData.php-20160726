@@ -1,0 +1,62 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: hary
+ * Date: 7/16/2016
+ * Time: 5:33 PM
+ */
+
+class basisData
+{
+    const POPULASI = '280';
+    const KONSTANTA = '0.1';
+
+    function GetMyConnection()
+    {
+        $con = mysqli_connect("127.0.0.1","root","","regresi");
+        // Check connection
+        if (mysqli_connect_errno())
+        {
+            echo "Failed to connect to MySQL: " . mysqli_connect_error();
+        }/*else{
+            echo "Success";
+        }*/
+    }
+
+    function haryClassDB(){
+        $user   = "root";
+        $pass   = "";
+        $server = "127.0.0.1";
+        $db     = "regresi";
+
+        $conn   = mysql_connect($server,$user,$pass);
+        if(!$conn){
+            $this->error("Connection couldn't established!!");
+        }
+        if(!mysql_select_db($db,$conn)){
+            $this->error("Database select failed!!");
+        }
+    }
+}
+
+class nilaiPerhitungan extends basisData{
+    public function numPopulation(){
+        return basisData::POPULASI;
+    }
+
+    public function numSample(){
+        $query = "select sum(number_ticket) as sample from tbltransact";
+        $cari = mysqli_query($query);
+        while($hasil=mysqli_fetch_row($cari)){
+            printf($hasil[sample]);
+        }
+    }
+
+    public function numCorrelation(){
+
+    }
+
+    public function numCoefficient(){
+
+    }
+}

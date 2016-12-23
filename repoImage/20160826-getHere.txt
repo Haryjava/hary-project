@@ -1,0 +1,999 @@
+ETag: "56b177f3-1d8"
+Accept-Ranges: bytes
+Age: 30187
+X-Cache: HIT from RFB-AXA
+X-Cache-Lookup: HIT from RFB-AXA:3128
+Via: 1.1 RFBAXA:3128 (Lusca/LUSCA_HEAD-r14942)
+Connection: close
+
+* <connect to 189.218.120.166 port 50556 failed: Connection refused
+ HTTP/1.1 200 OK
+*<  Failed to connect to 189.218.120.166 port 50556: Connection refused
+Date: Fri, 26 Aug 2016 10:35:06 GMT
+**  Closing connection 0
+Server Apache is not blacklisted
+< Server: Apache
+< Vary: Accept-Encoding
+< Content-Type: text/html
+< 
+* Connection #0 to host 59.148.118.3 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:35:06 GMT
+Server: Apache
+Vary: Accept-Encoding
+Content-Type: text/html
+
+< HTTP/1.1 302 Found
+< Date: Fri, 26 Aug 2016 10:31:02 GMT
+* Server Apache is not blacklisted
+< Server: Apache
+--
+X-Squid-Error: ERR_INVALID_URL 0
+Vary: Accept-Language
+Content-Language: en
+X-Cache: MISS from TD-LTE/FDD-LTE(www.sbwml.cn)
+X-Cache-Lookup: NONE from TD-LTE/FDD-LTE(www.sbwml.cn):80
+Connection: close
+
+* Empty reply from server
+* Connection #0 to host 119.6.136.122 left intact
+< HTTP/1.1 200 OK
+* Server nginx/1.2.2 is not blacklisted
+< Server: nginx/1.2.2
+< Date: Fri, 26 Aug 2016 10:36:02 GMT
+< Content-Type: text/html
+< Connection: keep-alive
+< Pragma: no-cache
+< Cache-Control: no-cache,no-store,must-revalidate
+< Expires: 0
+< 
+* Connection #0 to host 122.195.181.46 left intact
+HTTP/1.1 200 OK
+Server: nginx/1.2.2
+Date: Fri, 26 Aug 2016 10:36:02 GMT
+Content-Type: text/html
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache,no-store,must-revalidate
+Expires: 0
+
+< HTTP/1.1 500 Internal Server Error
+--
+*>  Closing connection 0
+Host: 203.210.8.41
+> Accept: */*
+> 
+HTTP/1.1 503 Too many open connections
+Content-Type: text/plain
+Connection: close
+
+< HTTP/1.1 400 Bad Request
+< HTTP/1.1 200 OK
+* Server squid/3.3.11 is not blacklisted
+<<  Tx-Server: MiXr
+Server: squid/3.3.11
+<<  Date: Fri, 26 Aug 2016 10:35:57 GMT
+Mime-Version: 1.0
+<<  Date: Fri, 26 Aug 2016 10:36:03 GMT
+Content-Type: text/html
+<<  Content-Type: text/html
+Content-Length: 1770
+--
+< <MiCGI-Status: LUAROOT
+ <Vary: Accept-Encoding
+ MiCGI-Preload: no
+<<  Accept-Ranges: bytes
+Vary: Accept-Encoding
+< <
+ 
+* Closing connection 0
+* Connection #0 to host 58.59.18.88 left intact
+HTTP/1.1 200 OK
+Tx-Server: MiXr
+Date: Fri, 26 Aug 2016 10:35:57 GMT
+Content-Type: text/html
+Content-Length: 1770
+Last-Modified: Fri, 25 Dec 2015 07:55:01 GMT
+Connection: close
+ETag: "567cf655-6ea"
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Cache-Control: no-cache
+--
+Connection: close
+
+* Connected to 222.54.130.156 (222.54.130.156) port 2226 (#0)
+> HEAD / HTTP/1.1
+> User-Agent: curl/7.35.0
+> Host: 222.54.130.156:2226
+> Accept: */*
+> 
+< <HTTP/1.1 503 Too many open connections
+ HTTP/1.1 200 OK
+< <Content-Type: text/plain
+ <Date: Fri, 26 Aug 2016 10:36:03 GMT
+ Connection: close
+*<  Server Apache/2.4.10 (Debian) is not blacklisted
+
+<*  Server: Apache/2.4.10 (Debian)
+Excess found in a non pipelined read: excess = 45 url = / (zero-length body)
+* <Closing connection 0
+ Last-Modified: Thu, 25 Aug 2016 06:38:21 GMT
+--
+Content-Type: text/plain
+Connection: close
+
+< Accept-Ranges: bytes
+< Content-Length: 80410
+< Vary: Accept-Encoding
+< Content-Type: text/html
+< 
+* Connection #0 to host 188.164.203.26 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:36:03 GMT
+Server: Apache/2.4.10 (Debian)
+Last-Modified: Thu, 25 Aug 2016 06:38:21 GMT
+ETag: "13a1a-53adfa4d3aae4"
+Accept-Ranges: bytes
+Content-Length: 80410
+Vary: Accept-Encoding
+Content-Type: text/html
+
+--
+< 
+* Excess found in a non pipelined read: excess = 1024 url = / (zero-length body)
+* Closing connection 0
+HTTP/1.0 400 Bad Request
+Content-Type: text/html
+Pragma: no-cache
+Connection: close
+Content-Type: text/html; charset=utf-8
+
+< HTTP/1.1 200 OK
+<* Tx-Server: MiXr
+ <Connected to 84.39.40.62 (84.39.40.62) port 80 (#0)
+ Date: Fri, 26 Aug 2016 10:36:03 GMT
+< Content-Type: text/html
+< Content-Length: 1770
+<>  Last-Modified: Fri, 25 Dec 2015 07:55:01 GMT
+HEAD / HTTP/1.1
+<>  Connection: close
+User-Agent: curl/7.35.0
+--
+< <MiCGI-Preload: no
+ <Proxy-Agent: Privoxy 3.0.19
+ Accept-Ranges: bytes
+<<  Content-Type: text/plain
+
+< *Connection: close
+ Closing connection 0
+< 
+* Excess found in a non pipelined read: excess = 38 url = / (zero-length body)
+HTTP/1.1 200 OK
+Tx-Server: MiXr
+Date: Fri, 26 Aug 2016 10:36:03 GMT
+Content-Type: text/html
+Content-Length: 1770
+Last-Modified: Fri, 25 Dec 2015 07:55:01 GMT
+Connection: close
+ETag: "567cf655-6ea"
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Cache-Control: no-cache
+--
+ >HEAD / HTTP/1.1
+ >Host: 104.202.117.65
+ >User-Agent: curl/7.35.0
+ >Accept: */*
+ >Host: 168.63.20.19:8145
+ >
+ Accept: */*
+> 
+* Connected to 104.202.117.208 (104.202.117.208) port 80 (#0)
+< <HTTP/1.1 200 OK
+>  HTTP/1.1 400 Invalid header received from client
+HEAD / HTTP/1.1
+> User-Agent: curl/7.35.0
+<><   Date: Fri, 26 Aug 2016 10:36:04 GMT
+Host: 104.202.117.208
+Proxy-Agent: Privoxy 3.0.19
+>* < Accept: */*
+ Server Apache/2.4.6 (CentOS) is not blacklisted
+>Content-Type: text/plain
+--
+Proxy-Agent: Privoxy 3.0.19
+Content-Type: text/plain
+Connection: close
+
+*Content-Type: text/html; charset=UTF-8
+ Failed to connect to 190.124.251.243 port 8080: Connection refused
+<*  
+Closing connection 0
+* Connection #0 to host 203.154.120.81 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:36:04 GMT
+Server: Apache/2.4.6 (CentOS)
+Last-Modified: Thu, 25 Feb 2016 04:42:13 GMT
+ETag: "a-52c90ce6ae24f"
+Accept-Ranges: bytes
+Content-Length: 10
+Content-Type: text/html; charset=UTF-8
+
+< HTTP/1.1 400 Invalid header received from client
+--
+* Closing connection 0
+HTTP/1.1 400 Cycle Detected
+Content-Type: text/html
+Cache-Control: no-cache
+Pragma: no-cache
+Connection: close
+Content-Length: 2847
+Via: 1.0 OpenProxy-02 (jaguar/3.0-11)
+
+< HTTP/1.1 200 OK
+< Tx-Server: MiXr
+< Date: Fri, 26 Aug 2016 10:36:05 GMT
+< Content-Type: text/html
+< Content-Length: 1770
+< Last-Modified: Fri, 25 Dec 2015 07:55:01 GMT
+< Connection: close
+< ETag: "567cf655-6ea"
+< Expires: Thu, 01 Jan 1970 00:00:01 GMT
+< Cache-Control: no-cache
+--
+< MiCGI-Host: 113.254.104.207
+< MiCGI-Http-Host: 113.254.104.207
+< MiCGI-Server-Ip: 113.254.104.207
+< MiCGI-Server-Port: 80
+< MiCGI-Status: LUAROOT
+< MiCGI-Preload: no
+< Accept-Ranges: bytes
+< 
+* Closing connection 0
+HTTP/1.1 200 OK
+Tx-Server: MiXr
+Date: Fri, 26 Aug 2016 10:36:05 GMT
+Content-Type: text/html
+Content-Length: 1770
+Last-Modified: Fri, 25 Dec 2015 07:55:01 GMT
+Connection: close
+ETag: "567cf655-6ea"
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Cache-Control: no-cache
+--
+Content-Type: text/html
+Content-Length: 8684
+X-Squid-Error: ERR_INVALID_URL 0
+Vary: Accept-Language
+Content-Language: en
+X-Cache: MISS from BNBDC5BRCUDA.bnb.iad.qwest.net
+Via: 1.1 BNBDC5BRCUDA.bnb.iad.qwest.net (http_scan_byf/3.3.1)
+Connection: close
+
+< HTTP/1.1 200 OK
+* Server nginx/1.0.15 is not blacklisted
+< Server: nginx/1.0.15
+< Date: Fri, 26 Aug 2016 10:36:05 GMT
+< Content-Type: text/html
+< Connection: keep-alive
+< Content-Length: 3698
+< Last-Modified: Tue, 16 Jun 2015 21:34:15 GMT
+< Accept-Ranges: bytes
+< 
+* Connection #0 to host 106.75.198.201 left intact
+HTTP/1.1 200 OK
+Server: nginx/1.0.15
+Date: Fri, 26 Aug 2016 10:36:05 GMT
+Content-Type: text/html
+Connection: keep-alive
+Content-Length: 3698
+Last-Modified: Tue, 16 Jun 2015 21:34:15 GMT
+Accept-Ranges: bytes
+
+* Empty reply from server
+* Connection #0 to host 218.56.132.154 left intact
+* connect to 190.3.127.21 port 80 failed: Connection refused
+* Failed to connect to 190.3.127.21 port 80: Connection refused
+* Closing connection 0
+*<  HTTP 1.0, assume close after body
+HTTP/1.1 200 OK
+< HTTP/1.0 501 Tor is not an HTTP Proxy
+*<  Server nginx is not blacklisted
+Content-Type: text/html; charset=iso-8859-1
+<<  Server: nginx
+
+< *Date: Fri, 26 Aug 2016 10:36:05 GMT
+ Excess found in a non pipelined read: excess = 669 url = / (zero-length body)
+< Content-Type: text/html; charset=utf-8
+*<  Closing connection 0
+--
+< Connection: keep-alive
+<HTTP/1.0 501 Tor is not an HTTP Proxy
+Content-Type: text/html; charset=iso-8859-1
+
+ Last-Modified: Fri, 17 Jun 2016 09:12:32 GMT
+< ETag: "5763bf00-2928"
+< Accept-Ranges: bytes
+< 
+* Connection #0 to host 218.244.149.184 left intact
+HTTP/1.1 200 OK
+Server: nginx
+Date: Fri, 26 Aug 2016 10:36:05 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 10536
+Connection: keep-alive
+Last-Modified: Fri, 17 Jun 2016 09:12:32 GMT
+ETag: "5763bf00-2928"
+Accept-Ranges: bytes
+
+--
+Vary: Accept-Language
+Content-Language: en
+X-Cache: MISS from localhost
+X-Cache-Lookup: NONE from localhost:3128
+Via: 1.0 localhost (squid/3.1.19)
+Connection: close
+
+<*<<    HTTP/1.1 400 Invalid header received from client
+Recv failure: Connection reset by peer
+HTTP/1.1 200 OK
+HTTP/1.1 200 OK
+* Closing connection 0
+<<<   Proxy-Agent: Privoxy 3.0.21
+Tx-Server: MiXr
+Tx-Server: MiXr
+<<<   Content-Type: text/plain
+Date: Fri, 26 Aug 2016 10:35:23 GMT
+Date: Fri, 26 Aug 2016 10:33:54 GMT
+<<<   Connection: close
+Content-Type: text/html
+--
+MiCGI-Status: LUAROOT
+<<  MiCGI-Preload: no
+MiCGI-Preload: no
+<<  Accept-Ranges: bytes
+Accept-Ranges: bytes
+<<  
+
+**  Closing connection 0
+Closing connection 0
+HTTP/1.1 200 OK
+Tx-Server: MiXr
+Date: Fri, 26 Aug 2016 10:35:23 GMT
+Content-Type: text/html
+Content-Length: 1770
+Last-Modified: Fri, 25 Dec 2015 07:55:01 GMT
+Connection: close
+ETag: "567cf655-6ea"
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Cache-Control: no-cache
+--
+MiCGI-Client-Ip: 203.130.234.220
+MiCGI-Host: 112.85.115.89
+MiCGI-Http-Host: 112.85.115.89:10000
+MiCGI-Server-Ip: 112.85.115.89
+MiCGI-Server-Port: 80
+MiCGI-Status: LUAROOT
+MiCGI-Preload: no
+Accept-Ranges: bytes
+
+HTTP/1.1 200 OK
+Tx-Server: MiXr
+Date: Fri, 26 Aug 2016 10:33:54 GMT
+Content-Type: text/html
+Content-Length: 1775
+Last-Modified: Tue, 17 Nov 2015 05:56:10 GMT
+Connection: close
+ETag: "564ac17a-6ef"
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Cache-Control: no-cache
+--
+* Connection #0 to host 124.133.230.254 left intact
+HTTP/1.1 403 Forbidden
+Server: nginx/1.0.8
+Date: Fri, 26 Aug 2016 10:55:06 GMT
+Content-Type: text/html
+Content-Length: 168
+Connection: keep-alive
+Set-Cookie: insert_cookie=91349450; path=/
+
+<<  HTTP/1.1 200 OK
+HTTP/1.1 503 Too many open connections
+<<  Date: Fri, 26 Aug 2016 10:38:08 GMT
+Content-Type: text/plain
+*<  Server Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2 is not blacklisted
+Connection: close
+< <Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2
+ 
+* <Excess found in a non pipelined read: excess = 45 url = / (zero-length body)
+ Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+--
+< Accept-Ranges: bytes
+< Content-Length: 44
+HTTP/1.1 503 Too many open connections
+Content-Type: text/plain
+Connection: close
+
+< Content-Type: text/html
+< 
+* Connection #0 to host 51.254.106.76 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:38:08 GMT
+Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2
+Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+ETag: "5fb97-2c-3e9564c23b600"
+Accept-Ranges: bytes
+Content-Length: 44
+Content-Type: text/html
+
+< HTTP/1.1 400 Bad Request
+--
+< Connection: close
+< 
+* Excess found in a non pipelined read: excess = 38 url = / (zero-length body)
+* Closing connection 0
+HTTP/1.1 400 Invalid header received from client
+Proxy-Agent: Privoxy 3.0.19
+Content-Type: text/plain
+Connection: close
+
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:36:07 GMT
+* Server Apache/2.2.3 (CentOS) is not blacklisted
+< Server: Apache/2.2.3 (CentOS)
+< Last-Modified: Tue, 23 Aug 2016 17:17:55 GMT
+< ETag: "530120-10-586996c0"
+< Accept-Ranges: bytes
+< Content-Length: 16
+< Connection: close
+< Content-Type: text/html; charset=UTF-8
+< 
+* Closing connection 0
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:36:07 GMT
+Server: Apache/2.2.3 (CentOS)
+Last-Modified: Tue, 23 Aug 2016 17:17:55 GMT
+ETag: "530120-10-586996c0"
+Accept-Ranges: bytes
+Content-Length: 16
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+* Empty reply from server
+* Connection #0 to host 166.62.82.206 left intact
+*<  Empty reply from server
+HTTP/1.1 200 OK
+* Connection #0 to host 166.62.97.241 left intact
+< Date: Fri, 26 Aug 2016 10:36:07 GMT
+* Server Apache/2.4.12 (Ubuntu) is not blacklisted
+< Server: Apache/2.4.12 (Ubuntu)
+< Last-Modified: Thu, 28 Jan 2016 08:31:45 GMT
+< ETag: "38b-52a60bfb39e40"
+< Accept-Ranges: bytes
+< Content-Length: 907
+< Vary: Accept-Encoding
+< Content-Type: text/html
+< 
+* Connection #0 to host 188.166.87.190 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:36:07 GMT
+Server: Apache/2.4.12 (Ubuntu)
+Last-Modified: Thu, 28 Jan 2016 08:31:45 GMT
+ETag: "38b-52a60bfb39e40"
+Accept-Ranges: bytes
+Content-Length: 907
+Vary: Accept-Encoding
+Content-Type: text/html
+
+--
+Connection: close
+Content-Length: 1745
+
+HTTP/1.1 400 Invalid header received from client
+Proxy-Agent: Privoxy 3.0.19
+Content-Type: text/plain
+Connection: close
+
+*<  Recv failure: Connection reset by peer
+HTTP/1.1 200 OK
+* Closing connection 0
+< Date: Fri, 26 Aug 2016 10:36:18 GMT
+< Last-Modified: Wed, 24 Aug 2016 18:42:55 GMT
+< ETag: "21e7-53ad5a6461c78"
+< Accept-Ranges: bytes
+< Content-Length: 8679
+< Content-Type: text/html
+< 
+* Connection #0 to host 169.50.87.249 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:36:18 GMT
+Last-Modified: Wed, 24 Aug 2016 18:42:55 GMT
+ETag: "21e7-53ad5a6461c78"
+Accept-Ranges: bytes
+Content-Length: 8679
+Content-Type: text/html
+
+< HTTP/1.1 503 Too many open connections
+< Content-Type: text/plain
+< Connection: close
+< 
+* Excess found in a non pipelined read: excess = 45 url = / (zero-length body)
+* Closing connection 0
+HTTP/1.1 503 Too many open connections
+Content-Type: text/plain
+Connection: close
+
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:36:22 GMT
+* Server Apache is not blacklisted
+< Server: Apache
+< Content-Type: text/html;charset=UTF-8
+< 
+* Connection #0 to host 178.238.229.236 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:36:22 GMT
+Server: Apache
+Content-Type: text/html;charset=UTF-8
+
+< HTTP/1.1 400 Bad Request
+* Server http_scan_byf/3.3.1 is not blacklisted
+< Server: http_scan_byf/3.3.1
+< Mime-Version: 1.0
+< Date: Fri, 26 Aug 2016 10:27:37 GMT
+--
+* Excess found in a non pipelined read: excess = 38 url = / (zero-length body)
+* Closing connection 0
+HTTP/1.1 400 Invalid header received from client
+Proxy-Agent: Privoxy 3.0.19
+Content-Type: text/plain
+Connection: close
+
+* Recv failure: Connection reset by peer
+* Closing connection 0
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Connection: keep-alive
+< Date: Fri, 26 Aug 2016 10:36:08 GMT
+* Server XiaoYun.Smart.Router is not blacklisted
+< Server: XiaoYun.Smart.Router
+< Accept-Ranges: bytes
+< 
+* Connection #0 to host 111.56.49.30 left intact
+HTTP/1.1 200 OK
+Content-Type: text/html
+Connection: keep-alive
+Date: Fri, 26 Aug 2016 10:36:08 GMT
+Server: XiaoYun.Smart.Router
+Accept-Ranges: bytes
+
+* Empty reply from server
+* Connection #0 to host 182.253.201.78 left intact
+< HTTP/1.1 400 Invalid header received from client
+--
+< 
+* Closing connection 0
+HTTP/1.1 502 Bad Gateway
+Content-Type: text/html
+Content-Length: 166
+Connection: close
+Tx-Server: MiXr
+Date: Fri, 26 Aug 2016 10:36:08 GMT
+
+< HTTP/1.1 200 OK
+* Server nginx/1.2.2 is not blacklisted
+< Server: nginx/1.2.2
+< Date: Fri, 26 Aug 2016 10:36:08 GMT
+< Content-Type: text/html
+< Connection: keep-alive
+< Pragma: no-cache
+< Cache-Control: no-cache,no-store,must-revalidate
+< Expires: 0
+< 
+* Connection #0 to host 112.226.254.225 left intact
+HTTP/1.1 200 OK
+Server: nginx/1.2.2
+Date: Fri, 26 Aug 2016 10:36:08 GMT
+Content-Type: text/html
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache,no-store,must-revalidate
+Expires: 0
+
+* Connected to 79.129.56.159 (79.129.56.159) port 8080 (#0)
+--
+< Connection: close
+< 
+* Excess found in a non pipelined read: excess = 38 url = / (zero-length body)
+* Closing connection 0
+HTTP/1.1 400 Invalid header received from client
+Proxy-Agent: Privoxy 3.0.19
+Content-Type: text/plain
+Connection: close
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Connection: keep-alive
+< Date: Fri, 26 Aug 2016 10:36:10 GMT
+* Server XiaoYun.Smart.Router is not blacklisted
+< Server: XiaoYun.Smart.Router
+< Accept-Ranges: bytes
+< 
+* Connection #0 to host 120.234.46.114 left intact
+HTTP/1.1 200 OK
+Content-Type: text/html
+Connection: keep-alive
+Date: Fri, 26 Aug 2016 10:36:10 GMT
+Server: XiaoYun.Smart.Router
+Accept-Ranges: bytes
+
+< HTTP/1.1 401 Unauthorized
+< Content-Length: 788
+< Content-Type: text/html
+--
+< 
+* Connection #0 to host 121.12.149.18 left intact
+HTTP/1.1 500 Internal Server Error
+Server: nginx/1.8.0
+Date: Fri, 26 Aug 2016 10:36:10 GMT
+Content-Type: text/html
+Content-Length: 192
+Connection: keep-alive
+
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:36:10 GMT
+* Server Apache/2.2.15 (CentOS) is not blacklisted
+< Server: Apache/2.2.15 (CentOS)
+< Accept-Ranges: bytes
+< Vary: Accept-Encoding
+< Content-Length: 4057
+< Connection: close
+< Content-Type: text/html; charset=UTF-8
+< 
+* Closing connection 0
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:36:10 GMT
+Server: Apache/2.2.15 (CentOS)
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Length: 4057
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+< HTTP/1.1 500 Internal Server Error
+--
+Content-Length: 192
+Connection: keep-alive
+
+* Connected to 210.129.22.168 (210.129.22.168) port 3128 (#0)
+> HEAD / HTTP/1.1
+> User-Agent: curl/7.35.0
+> Host: 210.129.22.168:3128
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:36:13 GMT
+* Server Apache is not blacklisted
+< Server: Apache
+< Last-Modified: Fri, 25 Mar 2016 14:18:42 GMT
+< ETag: "4f7e155-b1-52ee03d723480"
+< Accept-Ranges: bytes
+< Content-Length: 177
+< Vary: Accept-Encoding
+< Content-Type: text/html
+< 
+* Connection #0 to host 164.132.222.249 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:36:13 GMT
+Server: Apache
+Last-Modified: Fri, 25 Mar 2016 14:18:42 GMT
+ETag: "4f7e155-b1-52ee03d723480"
+Accept-Ranges: bytes
+Content-Length: 177
+Vary: Accept-Encoding
+Content-Type: text/html
+
+--
+X-Cache: MISS from localhost
+X-Cache-Lookup: MISS from localhost:8080
+Via: 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 * HTTP/1.0 connection set to keep alive!
+< Connection: keep-alive
+< 
+* Connection #0 to host 94.181.34.64 left intact
+localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19), 1.0 localhost (squid/3.1.19)
+Connection: keep-alive
+
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:36:15 GMT
+* Server Apache-Coyote/1.1 is not blacklisted
+< Server: Apache-Coyote/1.1
+< X-Powered-By: Servlet/3.0; JBossAS-6
+< Accept-Ranges: bytes
+< ETag: W/"85-1465155212000"
+< Last-Modified: Sun, 05 Jun 2016 19:33:32 GMT
+< Content-Type: text/html
+< Content-Length: 85
+< Via: 1.1 kesco.co.in
+< 
+* Connection #0 to host 221.134.239.213 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:36:15 GMT
+Server: Apache-Coyote/1.1
+X-Powered-By: Servlet/3.0; JBossAS-6
+Accept-Ranges: bytes
+ETag: W/"85-1465155212000"
+Last-Modified: Sun, 05 Jun 2016 19:33:32 GMT
+Content-Type: text/html
+Content-Length: 85
+Via: 1.1 kesco.co.in
+
+< HTTP/1.1 200 OK
+< Content-Type: text/html
+< Connection: keep-alive
+< Date: Fri, 26 Aug 2016 10:36:14 GMT
+* Server XiaoYun.Smart.Router is not blacklisted
+< Server: XiaoYun.Smart.Router
+< Accept-Ranges: bytes
+< 
+* Connection #0 to host 222.59.161.12 left intact
+HTTP/1.1 200 OK
+Content-Type: text/html
+Connection: keep-alive
+Date: Fri, 26 Aug 2016 10:36:14 GMT
+Server: XiaoYun.Smart.Router
+Accept-Ranges: bytes
+
+* Recv failure: Connection reset by peer
+* Closing connection 0
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:38:18 GMT
+* Server Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2 is not blacklisted
+< Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2
+< Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+< ETag: "5fb97-2c-3e9564c23b600"
+< Accept-Ranges: bytes
+< Content-Length: 44
+< Content-Type: text/html
+< 
+* Connection #0 to host 51.254.106.66 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:38:18 GMT
+Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2
+Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+ETag: "5fb97-2c-3e9564c23b600"
+Accept-Ranges: bytes
+Content-Length: 44
+Content-Type: text/html
+
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:38:18 GMT
+* Server Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2 is not blacklisted
+< Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2
+< Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+< ETag: "5fb97-2c-3e9564c23b600"
+< Accept-Ranges: bytes
+< Content-Length: 44
+< Content-Type: text/html
+< 
+* Connection #0 to host 51.254.106.71 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:38:18 GMT
+Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2
+Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+ETag: "5fb97-2c-3e9564c23b600"
+Accept-Ranges: bytes
+Content-Length: 44
+Content-Type: text/html
+
+* HTTP 1.0, assume close after body
+--
+Content-Length: 3196
+X-Squid-Error: ERR_INVALID_URL 0
+Vary: Accept-Language
+Content-Language: en
+X-Cache: MISS from h82-102-14-181.host.redstation.co.uk
+X-Cache-Lookup: NONE from h82-102-14-181.host.redstation.co.uk:8888
+Via: 1.0 h82-102-14-181.host.redstation.co.uk (squid/3.1.23)
+Connection: close
+
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:36:17 GMT
+* Server Apache is not blacklisted
+< Server: Apache
+< Last-Modified: Fri, 12 Jul 2013 09:03:48 GMT
+< ETag: "20696-21b8-4e14cc9eb440c"
+< Accept-Ranges: bytes
+< Content-Length: 8632
+< X-Powered-By: PleskLin
+< Connection: close
+< Content-Type: text/html
+< 
+* Closing connection 0
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:36:17 GMT
+Server: Apache
+Last-Modified: Fri, 12 Jul 2013 09:03:48 GMT
+ETag: "20696-21b8-4e14cc9eb440c"
+Accept-Ranges: bytes
+Content-Length: 8632
+X-Powered-By: PleskLin
+Connection: close
+Content-Type: text/html
+--
+Vary: Accept-Language
+Content-Language: en
+X-Cache: MISS from unknown
+X-Cache-Lookup: NONE from unknown:3128
+Via: 1.0 unknown (squid/3.1.23)
+Connection: close
+
+* Recv failure: Connection reset by peer
+* Closing connection 0
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:38:23 GMT
+* Server Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2 is not blacklisted
+< Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2
+< Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+< ETag: "5fb97-2c-3e9564c23b600"
+< Accept-Ranges: bytes
+< Content-Length: 44
+< Content-Type: text/html
+< 
+* Connection #0 to host 51.254.106.74 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:38:23 GMT
+Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2
+Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+ETag: "5fb97-2c-3e9564c23b600"
+Accept-Ranges: bytes
+Content-Length: 44
+Content-Type: text/html
+
+* Empty reply from server
+--
+* Closing connection 0
+HTTP/1.0 504 Gateway Timeout
+Content-Length: 706
+Content-Type: text/html
+Date: Fri, 26 Aug 2016 18:34:58 GMT
+Expires: Fri, 26 Aug 2016 18:34:58 GMT
+Server: Mikrotik HttpProxy
+Proxy-Connection: close
+
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:34:37 GMT
+* Server Apache/2.4.7 (Ubuntu) is not blacklisted
+< Server: Apache/2.4.7 (Ubuntu)
+< Last-Modified: Thu, 28 Apr 2016 16:08:26 GMT
+< ETag: "48-5318dbc7cd280"
+< Accept-Ranges: bytes
+< Content-Length: 72
+< Vary: Accept-Encoding
+< Content-Type: text/html
+< 
+* Connection #0 to host 194.102.229.246 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:34:37 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Last-Modified: Thu, 28 Apr 2016 16:08:26 GMT
+ETag: "48-5318dbc7cd280"
+Accept-Ranges: bytes
+Content-Length: 72
+Vary: Accept-Encoding
+Content-Type: text/html
+
+--
+< 
+* Connection #0 to host 95.158.139.48 left intact
+HTTP/1.1 401 Unauthorized
+Content-Length: 798
+Content-Type: text/html
+Date: Fri, 26 Aug 2016 10:36:54 GMT
+Expires: Fri, 26 Aug 2016 10:36:54 GMT
+Server: Mikrotik HttpProxy
+
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:41:32 GMT
+* Server Apache is not blacklisted
+< Server: Apache
+< X-Powered-By: PleskLin
+< MS-Author-Via: DAV
+< Connection: close
+< Content-Type: text/html
+< 
+* Closing connection 0
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:41:32 GMT
+Server: Apache
+X-Powered-By: PleskLin
+MS-Author-Via: DAV
+Connection: close
+Content-Type: text/html
+
+* Connected to 109.207.61.175 (109.207.61.175) port 8090 (#0)
+> HEAD / HTTP/1.1
+--
+> Host: 123.170.240.25:8888
+> Accept: */*
+> 
+* Connected to 177.15.8.52 (177.15.8.52) port 8080 (#0)
+> HEAD / HTTP/1.1
+> User-Agent: curl/7.35.0
+> Host: 177.15.8.52:8080
+> Accept: */*
+> 
+< HTTP/1.1 200 OK
+* Server nginx/1.2.2 is not blacklisted
+< Server: nginx/1.2.2
+< Date: Fri, 26 Aug 2016 10:37:01 GMT
+< Content-Type: text/html
+< Connection: keep-alive
+< Pragma: no-cache
+< Cache-Control: no-cache,no-store,must-revalidate
+< Expires: 0
+< 
+* Connection #0 to host 123.170.240.25 left intact
+HTTP/1.1 200 OK
+Server: nginx/1.2.2
+Date: Fri, 26 Aug 2016 10:37:01 GMT
+Content-Type: text/html
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache,no-store,must-revalidate
+Expires: 0
+
+* Connected to 177.15.8.50 (177.15.8.50) port 8080 (#0)
+> HEAD / HTTP/1.1
+> User-Agent: curl/7.35.0
+> Host: 177.15.8.50:8080
+> Accept: */*
+> 
+* Empty reply from server
+* Connection #0 to host 186.194.47.186 left intact
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:39:11 GMT
+* Server Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2 is not blacklisted
+< Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2
+< Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+< ETag: "5fb97-2c-3e9564c23b600"
+< Accept-Ranges: bytes
+< Content-Length: 44
+< Content-Type: text/html
+< 
+* Connection #0 to host 51.254.106.77 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:39:11 GMT
+Server: Apache/2.2.15 (Unix) mod_ssl/2.2.15 OpenSSL/1.0.1e-fips DAV/2
+Last-Modified: Sat, 20 Nov 2004 20:16:24 GMT
+ETag: "5fb97-2c-3e9564c23b600"
+Accept-Ranges: bytes
+Content-Length: 44
+Content-Type: text/html
+
+* Recv failure: Connection reset by peer
+--
+< 
+* Connection #0 to host 193.142.213.18 left intact
+HTTP/1.1 504 Gateway Timeout
+Content-Length: 706
+Content-Type: text/html
+Date: Fri, 26 Aug 2016 10:39:45 GMT
+Expires: Fri, 26 Aug 2016 10:39:45 GMT
+Server: Mikrotik HttpProxy
+
+< HTTP/1.1 200 OK
+< Date: Fri, 26 Aug 2016 10:40:04 GMT
+* Server Apache/2.4.7 (Ubuntu) is not blacklisted
+< Server: Apache/2.4.7 (Ubuntu)
+< Content-Type: text/html;charset=ISO-8859-1
+< Content-Language: fr-FR
+< Content-Length: 11213
+< 
+* Connection #0 to host 149.202.195.236 left intact
+HTTP/1.1 200 OK
+Date: Fri, 26 Aug 2016 10:40:04 GMT
+Server: Apache/2.4.7 (Ubuntu)
+Content-Type: text/html;charset=ISO-8859-1
+Content-Language: fr-FR
+Content-Length: 11213
+
+* Empty reply from server
+* Connection #0 to host 115.159.1.186 left intact
+* Empty reply from server
